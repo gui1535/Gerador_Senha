@@ -21,17 +21,17 @@
 
     <!-- Inicio container -->
     <main class="container">
-        <span>Tamanho<span id="valor"></span> caracteres</span>
+        <span>Tamanho <span id="valor"></span> caracteres</span>
 
         <input id="slide" class="slide" type="range" min="5" max="40" value="15">
 
-        <button id="button" class="button-cta">Gerar senha</button>
+        <button onclick="gerarSenha()" id="button" class="button-cta">Gerar senha</button>
     </main> <!-- Fim container -->
 
     <!-- Inicio Container Senha -->
-    <div id="container-senha" class="container-senha hide">
+    <div onclick="copiarSenha()" id="container-senha" class="container-senha hide">
         <span class="title">Sua senha gerada foi:</span>
-        <span id="password" class="password"> 12312312312312</span>
+        <span id="password" class="password"></span>
         <span class="tool">Clique na senha para copiar</span>
     </div> <!-- Fim Container Senha -->
 

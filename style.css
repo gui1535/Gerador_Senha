@@ -39,6 +39,7 @@ body{
     height: 18px;
     outline: none;
     margin-top: 8px;
+    cursor: pointer;
 }
 
 .button-cta{
